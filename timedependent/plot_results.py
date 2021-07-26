@@ -50,6 +50,7 @@ ax1.loglog(H, np.array(H)**2, '--', color='black', label='$O(H^2)$')
 ax1.legend(loc='lower right')
 ax1.set_xlabel('H')
 ax1.set_ylabel('relative energy error')
+plt.show()
 
 
 #plot coefficient

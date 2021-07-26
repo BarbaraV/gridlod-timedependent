@@ -2,8 +2,8 @@ import numpy as np
 import scipy.io as sio
 
 from gridlod.world import World
-from gridlod import algorithms, fem, util
-import timestepping
+from gridlod import fem, util
+import algorithms, timestepping
 
 NFine = np.array([512,512])
 NpFine = np.prod(NFine+1)

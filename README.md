@@ -1,4 +1,4 @@
-# gridlod-random-perturbations
+# gridlod-timedependent
 
 ```
 # This repository is part of the project for "Numerical upscaling of wave equations with time-dependent multiscale coefficients":
@@ -77,6 +77,7 @@ python3 plot_results.py
 ```
 
 All data from the experiments are available and stored in the `data`-folder as .mat-files, so you can skip the step of generating the data to save time.
+In case you generate the data first, you may need to adapt the `root`-variable in `plot_results.py` according to the path where you store the data. Further, please note that plots in the paper are generated via tikz, so that `plot_results.py` reproduces them qualitatively only.
 
 
 ## Note
